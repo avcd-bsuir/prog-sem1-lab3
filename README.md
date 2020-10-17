@@ -1,10 +1,8 @@
 [![License](https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-blue.svg)](https://bit.ly/cc-by-nc-sa-40)
 
-# Template repository
-
-This is a template repository for programming laboratory works in BSUIR.
-
 # Usage
+
+To clone repository correctly use `--recursive` flag with `git`.
 
 To compile and run a program use:
 ```
@@ -13,11 +11,31 @@ $ ./build.sh gcc src/<filename>
 
 Executable will be started automatically. It can be found in `build/scr/` folder.
 
-# Semester \<#\> lab \<#\>
+# Semester \<1\> lab \<3\>
 
-## Task \<#\>
+## Task \<1\>
 
-Task description.
+Fill the array with real numbers from the keyboard. Replace all elements with their squares. Print array before and after transformation.
+
+Original (ru):
+
+Заполнить массив вещественными числами с клавиатуры. Заменить все элементы на их квадраты. Вывести массив до и после преобразования.
+
+## Task \<2\>
+
+Fill a two-dimensional array with ones and zeros in this way so that the ones are placed as black squares are placed on the chessboard, and zeros are like white boxes. The bottom left field on the chessboard is always black.
+
+Original (ru):
+
+Заполнить двумерный массив единицами и нулями таким образом, чтобы единицы размещались так, как размещаются на шахматной доске черные поля, а нули - как белые поля. Левое нижнее поле на шахматной доске всегда черное.
+
+## Task \<3\>
+
+You are given a two-dimensional array of non-zero integers. Determine how many times array elements change sign (assuming that the array is viewed line by line from top to bottom, and on each line - from left to right). Also take into account the change of sign when moving to a new line
+
+Original (ru):
+
+Дан двумерный массив ненулевых целых чисел. Определить, сколько раз элементы массива меняют знак (принимая, что массив просматривается построчно сверху вниз, а в каждой строке - слева направо). Смену знака при переходе на новую строку также учитывать
 
 # Credits
 
